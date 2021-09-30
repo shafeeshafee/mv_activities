@@ -1,0 +1,14 @@
+{
+  "name": "static-functions-and-properties",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage=true"
+  },
+  "author": "Linda Eng",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.0.4"
+  }
+}
