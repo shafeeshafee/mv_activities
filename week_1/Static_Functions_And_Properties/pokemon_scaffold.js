@@ -17,7 +17,19 @@ class Pokemon {
   }
 
   static isValidType(type) {
-    const elements = ["fire", "water", "grass", "earth", "lightning"];
+    const elements = [
+      "fire",
+      "water",
+      "grass",
+      "earth",
+      "lightning",
+      "rock",
+      "steel",
+      "flying",
+      "psychic",
+      "poison",
+      "ghost",
+    ];
     return elements.includes(type);
   }
 

@@ -2,16 +2,14 @@ const Pokemon = require("../pokemon_scaffold");
 
 class Pikachu extends Pokemon {
   constructor(name, number, type, hp, attackDamage) {
-    super(name, number, type);
-    this.hp = hp;
+    super(name, number, type, hp);
     this.attackDamage = attackDamage;
   }
 }
 
 class MewTwo extends Pokemon {
   constructor(name, number, type, hp, attackDamage) {
-    super(name, number, type);
-    this.hp = hp;
+    super(name, number, type, hp);
     this.attackDamage = attackDamage;
   }
 }
