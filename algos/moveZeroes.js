@@ -11,30 +11,30 @@
 
 function moveZeroes(arr) {
   // set up pointers
-  let i = 0;
-  let j = i + 1;
+  let left = 0;
+  let right = left + 1;
 
   // while loop
-  while (j < arr.length) {
+  while (right < arr.length) {
     // if 0 is on left, swap
-    if ((arr[i] === 0) & (arr[j] !== 0)) {
-      let temp = arr[i];
+    if ((arr[left] === 0) & (arr[right] !== 0)) {
+      let temp = arr[left];
 
-      arr[i] = arr[j];
-      arr[j] = temp;
-      i++;
+      arr[left] = arr[right];
+      arr[right] = temp;
+      left++;
     }
 
     // if left isn't 0, increment it
-    if (arr[i] !== 0) {
-      i++;
+    if (arr[left] !== 0) {
+      left++;
     }
 
     // always move j up
-    j++;
+    right++;
   }
 
   return arr;
 }
 
-moveZeroes([0, 1, 0, 3, 12]);
+console.log(moveZeroes([0, 1, 0, 3, 12]));
