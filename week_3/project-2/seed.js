@@ -13,7 +13,7 @@ const seed = async () => {
 
     const { data } = JSON.parse(String(buffer));
 
-    const modelPromises = data.map((music) => modelClass.create(music));
+    const modelPromises = data.map((item) => modelClass.create(item));
     await Promise.all(modelPromises);
     console.log(`${modelName} was just populated.`);
   }
