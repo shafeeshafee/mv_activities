@@ -1,0 +1,74 @@
+{
+    "data":[
+       {
+          "name":"The 100",
+          "genre":"Sci-fi",
+          "seasons":7,
+          "ratings":93,
+          "UserId": 1
+       },
+       {
+          "name":"Who Killed Sarah",
+          "genre":"Thriller",
+          "seasons":2,
+          "ratings":86,
+          "UserId": 2
+       },
+       {
+          "name":"The Circle",
+          "genre":"Reality Tv",
+          "seasons":3,
+          "ratings":81,
+          "UserId": 2
+       },
+       {
+          "name":"Little America",
+          "genre":"Comedy",
+          "seasons":2,
+          "ratings":95,
+          "UserId": 3
+       },
+       {
+          "name":"Supernatural",
+          "genre":"Mystery",
+          "seasons":15,
+          "ratings":93,
+          "UserId": 4
+       },
+       {
+          "name":"Clickbait",
+          "genre":"Drama",
+          "seasons":1,
+          "ratings":58,
+          "UserId": 1
+       },
+       {
+          "name":"Twin Peaks",
+          "genre":"Crime",
+          "seasons":2,
+          "ratings":82,
+          "UserId": 4
+       },
+       {
+          "name":"Squidgame",
+          "genre":"Drama",
+          "seasons":1,
+          "ratings":91,
+          "UserId": 2
+       },
+       {
+          "name":"Midnight Mass",
+          "genre":"Horror",
+          "seasons":1,
+          "ratings":91,
+          "UserId": 3
+       },
+       {
+          "name":"On My Block",
+          "genre":"Drama",
+          "seasons":4,
+          "ratings":92,
+          "UserId": 4
+       }
+    ]
+ }

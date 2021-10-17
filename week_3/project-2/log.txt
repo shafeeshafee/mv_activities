@@ -1,0 +1,2 @@
+- Added UserId to shows.json
+- Added include in our route that displays all the shows that a user has watched
